@@ -4,7 +4,7 @@
 
 ## Contents
 
-* [Chapter01](https://github.com/gam0za/rxjava-study)
+* [Chapter01](https://github.com/gam0za/rxjava-study/tree/master/ch01)
 * [Chapter02]
 
 ## Tools
