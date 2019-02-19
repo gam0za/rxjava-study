@@ -2,17 +2,17 @@
 
 >Rxjava와 RxAndroid 스터디 
 
-## Contents
+## :heart: Contents
 
 * [Chapter01](https://github.com/gam0za/rxjava-study/tree/master/ch01)
 * [Chapter02]
 
-## Tools
+## :heart: Tools
 
 * RxJava
 * IntelliJ
 
-## Contributers
+## :blue_heart: Contributers
 
 * [고민주](https://github.com/minju54)
 * [김진영](https://github.com/gam0za)
