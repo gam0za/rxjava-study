@@ -1,20 +1,44 @@
-## Chapter01 
+## Chapter01 리액티브 프로그래밍 개요
 
-> 리액티브 프로그래밍 개요
+> Today Goal: 리액티브 프로그래밍과 함수형 프로그래밍에 대한 개념을 익히자
 
-* 함수형 프로그래밍 
+### 함수형 프로그래밍 
 우리가 기존에 접했던 절차지향, 객체지향 프로그래밍과 달리, 함수형 프로그래밍은 유기적 연결 및 동작이 프로그램의 최우선이 되는 프로그래밍 방식이다. 즉, 함수가 일급객체로써의 의미를 가지는 것이다. 
 
-* 리액티브 프로그래밍
+### 리액티브 프로그래밍
 데이터 흐름과 전달에 관한 프로그래밍. 함수형 프로그래밍 언어의 도구들을 가지고 데이터 흐름을 composable(구성가능)하게 구현하는 것이다.
 
-* 참고자료 
+* 함수형 프로그래밍 활용
+* 복잡한 비동기 프로그램을 쉽게 만들어준다(콜백지옥X)
+* 선언형 프로그래밍 <-> 명령형 프로그래밍
+* 함수형 프로그래밍 <-> 선언형 프로그래밍에 포함되어 있음
+* 가변 데이터를 멀리한다
+* 순수함수, 부작용이 없는 함수, 함수의 실행이 외부에 영향을 끼치지 않는 함수
+* 환경이 변화면 이벤트를 받아서 동작 ex) 엑셀에서 함수를 썼을 때 값 변화에 따라 자동으로 반영되는 경우
+* 인터럽트를 받아서 처리 담당을 하는 것
 
-함수형 프로그래밍: https://medium.com/@sket8993/kotlin-%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%B4%88%EA%B0%84%EB%8B%A8-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-4dbf36dfc9a7
+### RxJava
+기존 Java가 pull 방식의 프로그래밍이었다면 Rxjava는 push형식의 프로그래밍 개념으로 바꿈
 
-함수형 프로그래밍(김밥말이): https://www.slideshare.net/ChiwonSong/20171104-frp-81598173
+* pull 방식: 사용자가 새로고침 버튼을 누르면 DB에서 데이터를 가져옴
+* push 방식: DB에서 데이터가 변경되면, 핸드폰에 푸시알림 오는 것과 같이 알리믕ㄹ 받아서 처리
 
-순수함수란: https://brunch.co.kr/@yudong/33
-반응형 프로그래밍: https://brunch.co.kr/@yudong/33
-rxjava란: https://poqw.github.io/RxJava2_1/
-RxJava 기초(예제 코드 자세함) https://medium.com/@LIP/rxjava-29cfb3ceb4ca
+pull은 사용자의 action이 있어야 작동을 하지만, push는 가만히 있다가 알림을 받으면 작동한다. 
+
+* 주의! 멀티스레드 환경에서는 데드락, 동기화 문제 등으로 인해 주의가 필요하다. 
+
+### 참고자료 
+
+[함수형 프로그래밍(김밥말이)](https://www.slideshare.net/ChiwonSong/20171104-frp-81598173)
+
+
+[순수함수란](https://brunch.co.kr/@yudong/33)
+
+
+[반응형 프로그래밍](https://brunch.co.kr/@yudong/33)
+
+
+[rxjava란](https://poqw.github.io/RxJava2_1/)
+
+
+[RxJava 기초(예제 코드 자세함)](https://medium.com/@LIP/rxjava-29cfb3ceb4ca)
