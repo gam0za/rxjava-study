@@ -1,3 +1,20 @@
-# RxJava 스터디
+# RxJava 
 
-### [** Chapter01. **](https://github.com/gam0za/jQuery_AJAX/tree/master/%EB%AC%B8%EC%84%9C%EA%B0%9D%EC%B2%B4%EC%A1%B0%EC%9E%91)
+>Rxjava와 RxAndroid 스터디 
+
+## Contents
+
+* [Chapter01](https://github.com/gam0za/rxjava-study)
+* [Chapter02]
+
+## Tools
+
+* RxJava
+* IntelliJ
+
+## Contributers
+
+* [고민주](https://github.com/minju54)
+* [김진영](https://github.com/gam0za)
+* [이영규](https://github.com/YoungGyuLee)
+* [최수정](https://github.com/suzzang)
