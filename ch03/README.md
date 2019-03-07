@@ -29,6 +29,8 @@
 
 > map() 함수는 '변환 연산자'의 종류로, 입력 값을 어떤 함수에 넣어서 원하는 값으로 변환하는 함수이다.
 
+![map](https://user-images.githubusercontent.com/23414861/53954452-9b7a9280-4119-11e9-9d6e-1bbc08be1f94.png)
+
 * 자바는 함수를 인자로 넘길 수 없기 때문에 '함수형 인터페이스'를 사용한다!
 
 * map()에 사용되는 함수형 인터페이스는 Function<T,R> 이다. (T: 입력 / R: 반환)
@@ -42,6 +44,8 @@
 
 > flatMap() 함수는 map() 함수의 발전 형태로, 결과가 Observable 형태로 나온다. 즉, map() 함수는 일대일 함수라면, flatMap() 함수는 일대다 혹은 일대일 Observable 함수이다. 
 
+![flatmap](https://user-images.githubusercontent.com/23414861/53954551-e3011e80-4119-11e9-964c-7f8a5e59214a.png)
+
 * flatMap(Function)
 
 * flatMap(Function, BiFunction)
@@ -49,6 +53,8 @@
 ### 3.3. filter() 함수
 
 > Observable에서 원하는 데이터만 걸러내는 역할을 한다. 말그대로 필터링!!
+
+![filter](https://user-images.githubusercontent.com/23414861/53954571-f44a2b00-4119-11e9-9a08-d6b4ec9a05e1.png)
 
 filter() 함수 대신 사용할 수 있는 함수가 많다.
 
@@ -70,6 +76,8 @@ filter() 함수 대신 사용할 수 있는 함수가 많다.
 ### 3.4. reduce() 함수
 
 > reduce() 함수는 발행한 데이터를 모두 사용하여 어떤 최종 결과 데이터를 합성할 때 활용한다.
+
+![reduce](https://user-images.githubusercontent.com/23414861/53954599-0c21af00-411a-11e9-9fc2-9bd012ef0a1a.png)
 
 * Observable이 아닌 Maybe 클래스 사용!!
 
